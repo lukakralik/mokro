@@ -7,17 +7,17 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #758FE6;
+    background-color: lightgray;
 }
 
 h1 {
     font-size: 72px;
-    color: #0A369D;
+    color: black;
 	margin-bottom: 30px;
 }
 
 img {
-    max-width: 100%;
+	width: 30%;
     height: auto;
 }
 
@@ -34,10 +34,9 @@ img {
     margin: 10px auto;
     padding: 15px 30px;
     font-size: 36px;
-    background-color: #6088D2;
-    color: #0A369D;
-    border: none;
-    border-radius: 5px;
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
     width: 200px;
@@ -49,8 +48,15 @@ img {
     }
 }
 
-.subtitle {
-    font-size: 28px;
-    color: #0A369D;
-    opacity: 0.8;
+.logo-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
 }
